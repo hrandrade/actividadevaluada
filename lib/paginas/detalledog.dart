@@ -23,12 +23,6 @@ class DetaDog extends StatefulWidget {
 }
 
 class _DetaDogState extends State<DetaDog> {
-  double width = 200;
-  double height = 100;
-  double width2 = 200;
-  double height2 = 300;
-  double opacity = 0.2;
-  Color color = Colors.red;
 
   CrossFadeState state = CrossFadeState.showFirst;
   @override

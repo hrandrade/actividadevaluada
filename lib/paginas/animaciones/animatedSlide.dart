@@ -48,7 +48,7 @@ class _ASlideState extends State<ASlide> {
                   ),
                   Column(
                     children: <Widget>[
-                      Text('Y', style: textTheme.bodyMedium),
+                      Text('Vertical', style: textTheme.bodyMedium),
                       Expanded(
                         child: RotatedBox(
                           quarterTurns: 1,
@@ -72,7 +72,7 @@ class _ASlideState extends State<ASlide> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
-                Text('X', style: textTheme.bodyMedium),
+                Text('Horizontal', style: textTheme.bodyMedium),
                 Expanded(
                   child: Slider(
                     min: -5.0,
